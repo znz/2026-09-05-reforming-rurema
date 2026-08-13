@@ -3,14 +3,24 @@
 author
 :   Kazuhiro NISHIYAMA
 
+institution
+:   株式会社Ruby開発
+
 date
-:   2026-07-23
+:   2026-08-13
 
 allotted-time
 :   5m
 
 theme
 :   lightning-simple
+
+# self.introduction
+
+- 西山 和広
+- github など: `@znz`
+- Ruby のコミッター
+- https://github.com/rurema の管理者の一人
 
 # るりまリニューアル
 
@@ -23,8 +33,10 @@ theme
 # 執筆側
 
 - doctree の書式が bitclust RD から Markdown へ
+  - AI は bitclust RD を `BitClust::RRDParser` という実装の名前から勝手に RRD と言おうとするが正式名称はない
 - GitHub のプレビューのため、できるだけ GFM 互換
 - `### def ...` や `#@since 3.1` 〜 `#@end` などは独自を維持
+  - mention 誤爆回避のため `#%since 3.1` 〜 `#%end` に変更
 - `[m:Array#each]` などのリンク (`[[m:Array#each]]` から変更)
 - モジュール関数は `Math.#atan2` から RBS に似せて `Math?.atan2` に変更
 
@@ -46,6 +58,7 @@ theme
   - 残りは方針検討中の数件
 - 説明の誤りを実測して修正
 - サンプルコードの書き方も明文化して改善
+- 出力例は「`# =>`」、例外は「`# ~>`」に統一
 
 # 移行手段
 
