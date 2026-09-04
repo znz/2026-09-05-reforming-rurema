@@ -1,6 +1,6 @@
 # Reforming the Japanese Ruby reference manual
 
-TODO: スライドの説明
+[RubyKaigi 2026 follow up](https://rhc.connpass.com/event/392503/) での発表資料です。
 
 ## 作者向け
 
